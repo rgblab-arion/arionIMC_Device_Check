@@ -106,4 +106,5 @@ do
 	esac
 
 done
-	
+
+echo "" > ~/.bash_history
