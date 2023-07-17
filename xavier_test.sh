@@ -13,11 +13,15 @@ sudo apt-get update
 echo -e "\n\n"
 sleep 1
 
+echo -e "\n\nInstall cutecom"
+sudo apt-get install -y cutecom 2&> /dev/null
+echo -e "\n\n"
+sleep 1
+
 echo -e "\n\nInstall nmap"
 sudo apt-get install -y nmap
 echo -e "\n\n"
 sleep 1
-
 
 function openTerminal()
 {
