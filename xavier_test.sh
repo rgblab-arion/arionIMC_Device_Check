@@ -6,7 +6,7 @@ if (( $EUID != 0 )); then
 fi
 
 # sudo apt-get update
-# sudo apt-get install xdotool
+# sudo apt-get install -y xdotool
 
 
 function openTerminal()
@@ -79,7 +79,7 @@ sleep 1
 
 
 echo -e "\n\nInstall nmap"
-sudo apt-get install nmap 2&> /dev/null
+sudo apt-get install -y nmap 2&> /dev/null
 echo -e "\n\n"
 sleep 1
 
