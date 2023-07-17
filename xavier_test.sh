@@ -8,6 +8,16 @@ fi
 # sudo apt-get update
 # sudo apt-get install -y xdotool
 
+echo -e "\n\nApt Update"
+sudo apt-get update
+echo -e "\n\n"
+sleep 1
+
+echo -e "\n\nInstall nmap"
+sudo apt-get install -y nmap
+echo -e "\n\n"
+sleep 1
+
 
 function openTerminal()
 {
@@ -75,12 +85,6 @@ sleep 1
 xdotool type "candump can4"
 sleep 1
 xdotool key Return
-sleep 1
-
-
-echo -e "\n\nInstall nmap"
-sudo apt-get install -y nmap 2&> /dev/null
-echo -e "\n\n"
 sleep 1
 
 echo -e "\n\nFan Up... 255..."
